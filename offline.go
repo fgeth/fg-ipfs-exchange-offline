@@ -7,8 +7,8 @@ import (
 
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
-	blockstore "github.com/ipfs/go-ipfs-blockstore"
-	exchange "github.com/ipfs/go-ipfs-exchange-interface"
+	blockstore "github.com/fgeth/fg-ipfs-blockstore"
+	exchange "github.com/fgeth/fg-ipfs-exchange-interface"
 )
 
 func Exchange(bs blockstore.Blockstore) exchange.Interface {

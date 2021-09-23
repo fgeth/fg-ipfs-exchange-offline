@@ -8,9 +8,9 @@ import (
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
 	ds_sync "github.com/ipfs/go-datastore/sync"
-	blockstore "github.com/ipfs/go-ipfs-blockstore"
-	blocksutil "github.com/ipfs/go-ipfs-blocksutil"
-	u "github.com/ipfs/go-ipfs-util"
+	blockstore "github.com/fgeth/fg-ipfs-blockstore"
+	blocksutil "github.com/fgeth/fg-ipfs-blocksutil"
+	u "github.com/fgeth/fg-ipfs-util"
 )
 
 func TestBlockReturnsErr(t *testing.T) {
