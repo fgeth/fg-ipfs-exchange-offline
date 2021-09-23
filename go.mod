@@ -1,4 +1,4 @@
-module github.com/ipfs/go-ipfs-exchange-offline
+module github.com/fgeth/fg-ipfs-exchange-offline
 
 go 1.16
 
